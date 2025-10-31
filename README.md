@@ -20,10 +20,14 @@ Cada algoritmo segue o modelo **divide and conquer (dividir e conquistar)**, per
 
 ---
 
+## Criação do CSV
+O CSV contendo todos os resultados é gerado em uma pasta dentro do diretório do arquivo, a pasta é chamada de 'Export' e o arquivo interno contém os valores no formato de CSV
+
 ## 🧵 Controle de Threads
 
 Todos os algoritmos aceitam um parâmetro que define o número de threads que serão usadas.  
 Se `numThreads <= 0`, o algoritmo utiliza automaticamente o número total de núcleos do processador:
+#OBS: Na classe Main temos a aplicação completa rodando.
 
 ```java
 // Exemplo com MergeSort paralelo
